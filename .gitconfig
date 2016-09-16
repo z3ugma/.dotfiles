@@ -1,9 +1,9 @@
 [user]
   name = Kyle Shevlin
-  email = kyle.a.shevlin@gmail.com
+  email = kshevlin@secondstory.com
 
 [github]
-  user = "kyleshevlin"
+  user = "kshevl"
 
 [core]
   editor = open -a 'Sublime Text'
