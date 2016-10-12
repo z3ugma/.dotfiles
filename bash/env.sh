@@ -14,6 +14,9 @@ export PATH="$PATH:$HOME/.rvm/bin"
 export NVM_DIR="/Users/kshevl/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 
+# Load Yarn
+export PATH="$HOME/.yarn/bin:$PATH"
+
 # Turn command line colors on
 export CLICOLOR=1
 
