@@ -656,27 +656,57 @@ defaults write com.apple.messageshelper.MessageController SOInputLineSettings -d
 defaults write com.google.Chrome PMPrintingExpandedStateForPrint2 -bool true
 defaults write com.google.Chrome.canary PMPrintingExpandedStateForPrint2 -bool true
 
+
 ###############################################################################
-# Twitter.app                                                                 #
+# Itsycal
 ###############################################################################
 
-# Disable smart quotes as it’s annoying for code tweets
-defaults write com.twitter.twitter-mac AutomaticQuoteSubstitutionEnabled -bool false
+## General
 
-# Show the app window when clicking the menu bar icon
-defaults write com.twitter.twitter-mac MenuItemBehavior -int 1
+# Automatically check for updates
+defaults write com.mowglii.ItsycalApp SUEnableAutomaticChecks -bool true
 
-# Enable the hidden ‘Develop’ menu
-defaults write com.twitter.twitter-mac ShowDevelopMenu -bool true
+# First day of week
+defaults write com.mowglii.ItsycalApp WeekStartDOW -int 1
 
-# Open links in the background
-defaults write com.twitter.twitter-mac openLinksInBackground -bool true
+# Event list shows X days
+defaults write com.mowglii.ItsycalApp ShowEventDays -int 7
 
-# Allow closing the ‘new tweet’ window by pressing `Esc`
-defaults write com.twitter.twitter-mac ESCClosesComposeWindow -bool true
+## Appearance
 
-# Show full names rather than Twitter handles
-defaults write com.twitter.twitter-mac ShowFullNames -bool true
+# Use outline icon
+defaults write com.mowglii.ItsycalApp UseOutlineIcon -bool false
 
-# Hide the app in the background if it’s not the front-most window
-defaults write com.twitter.twitter-mac HideInBackground -bool true
+# Show month in icon
+defaults write com.mowglii.ItsycalApp ShowMonthInIcon -bool true
+
+# Show day of week in icon
+defaults write com.mowglii.ItsycalApp ShowDayOfWeekInIcon -bool false
+
+# Hide date icon
+defaults write com.mowglii.ItsycalApp HideIcon -bool false
+
+# Highlight day(s) of week
+#   Day | S | M | T | W |  T |  F |  S
+# Value | 1 | 2 | 4 | 8 | 16 | 32 | 64
+# Add values together for each day selected
+# 65: Sunday (1) + Saturday (64)
+defaults write com.mowglii.ItsycalApp HighlightedDOWs -int 65
+
+# Theme
+# 1: Light
+# 2: Dark
+defaults write com.mowglii.ItsycalApp ThemePreference -int 2
+
+# Show event dots
+# defaults write com.mowglii.ItsycalApp kShowEventDots -bool true
+
+# Show event location
+# defaults write com.mowglii.ItsycalApp ShowLocation -bool false
+
+# Show calendar weeks
+defaults write com.mowglii.ItsycalApp ShowWeeks -bool false
+
+# Number of calendar rows
+# defaults write com.mowglii.ItsycalApp MoCalendarNumRows -int 10
+
