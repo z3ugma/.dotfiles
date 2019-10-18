@@ -4,4 +4,4 @@ bower_components/
 .sass-cache/
 npm-debug.log
 .env
-
+.pem

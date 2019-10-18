@@ -5,29 +5,20 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias ......="cd ../../../../.."
 
-# NPM Aliases
-alias nrb="npm run build"
-alias nrs="npm run start"
-alias nrt="npm run test"
-alias nrtw="npm run test:watch"
-alias nrd="npm run deploy"
-
 # Directory Aliases
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-alias wk="cd ~/Work"
-alias pra="cd ~/Practice"
-alias sp="cd ~/SideProjects"
-alias blog="cd ~/Work/blog"
+alias ft="cd ~"
 
-# List all, long form
+# List
 alias la="ls -la"
+alias lt="ls -ltphk"
 
 # Copy PWD to Clipboard
 alias cpwd="pwd | tr -d '\n' | pbcopy && echo 'pwd copied to clipboard'"
 
 # Git command aliases that need to run from bash, not gitconfig
-alias pl="git copl $(get_git_branch)"
+# alias pl="git copl $(get_git_branch)"
 
 # Recursively delete `.DS_Store` files
 alias cleanupDS="find . -type f -name '*.DS_Store' -ls -delete"
@@ -54,5 +45,27 @@ alias spoton="sudo mdutil -a -i on"
 # Lock the screen (when going AFK)
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
 
-# Launch VSCode in teaching mode
-alias teach="code --extensions-dir ~/code_profiles/egghead/exts --user-data-dir ~/code_profiles/egghead/data"
+#Rails
+alias be='bundle exec'
+alias r='rails'
+alias rc='rails console'
+alias rs='rails server'
+
+alias ris='yarn install --check-files && rails s'
+
+#Coding
+alias st='open -a SourceTree'
+hack() {
+    st "$1"
+    code "$1"
+}
+
+alias grep='grep --color=auto -n'
+
+alias psg='ps -ef | grep '
+
+alias ippub="dig +short myip.opendns.com @resolver1.opendns.com"
+
+alias f='open -a Finder ./'  # Opens current directory in MacOS Finder
+
+

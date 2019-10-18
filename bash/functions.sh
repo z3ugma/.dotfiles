@@ -1,36 +1,27 @@
-# Get the current git branch
-get_git_branch() {
-  local branch=$(git branch 2>/dev/null| sed -n '/^\*/s/^\* //p')
-  echo $branch
-}
+# # Get the current git branch
+# get_git_branch() {
+#   local branch=$(git branch 2>/dev/null| sed -n '/^\*/s/^\* //p')
+#   echo $branch
+# }
 
-# Assemble the Git part of prompt
-git_prompt () {
-  # Not Git, don't add to prompt
-  if ! git rev-parse --git-dir > /dev/null 2>&1; then
-    return 0
-  fi
+# # Assemble the Git part of prompt
+# git_prompt () {
+#   # Not Git, don't add to prompt
+#   if ! git rev-parse --git-dir > /dev/null 2>&1; then
+#     return 0
+#   fi
 
-  git_branch=$(get_git_branch)
+#   git_branch=$(get_git_branch)
 
-  if git diff --quiet 2>/dev/null >&2; then
-    git_color="$c_git_clean"
-  else
-    git_color="$c_git_dirty"
-  fi
+#   if git diff --quiet 2>/dev/null >&2; then
+#     git_color="$c_git_clean"
+#   else
+#     git_color="$c_git_dirty"
+#   fi
 
-  echo " [$git_color$git_branch${c_reset}]"
-}
+#   echo " [$git_color$git_branch${c_reset}]"
+# }
 
-# Get Node Version
-get_node_version () {
-  echo $(node -v)
-}
-
-# Add Node to prompt
-node_prompt () {
-  echo " $c_node_version$(get_node_version)"
-}
 
 # Make a directory && cd into that directory
 function mkdircd () { mkdir -p "$@" && eval cd "\"\$$#\""; }

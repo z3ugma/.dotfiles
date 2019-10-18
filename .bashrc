@@ -5,3 +5,4 @@
 . ~/.dotfiles/bash/aliases.sh
 . ~/.dotfiles/bash/completions.sh
 . ~/.dotfiles/bash/prompt.sh
+. ~/.dotfiles/bash/options.sh
