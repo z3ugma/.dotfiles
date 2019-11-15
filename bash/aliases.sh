@@ -68,4 +68,5 @@ alias ippub="dig +short myip.opendns.com @resolver1.opendns.com"
 
 alias f='open -a Finder ./'  # Opens current directory in MacOS Finder
 
-
+#Python
+alias vnv= source venv/bin/activate
