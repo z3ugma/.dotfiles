@@ -70,3 +70,5 @@ alias f='open -a Finder ./'  # Opens current directory in MacOS Finder
 
 #Python
 alias vnv='source venv/bin/activate'
+
+alias warm='stress -c 6 -m 2 -t 300'
