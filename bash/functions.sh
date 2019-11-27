@@ -22,6 +22,14 @@
 #   echo " [$git_color$git_branch${c_reset}]"
 # }
 
+venv_prompt () {
+  if [ -z "$VIRTUAL_ENV" ]; then
+    echo ""
+  else 
+    echo "($(basename $VIRTUAL_ENV)) "
+  fi
+}
+
 
 # Make a directory && cd into that directory
 function mkdircd () { mkdir -p "$@" && eval cd "\"\$$#\""; }
