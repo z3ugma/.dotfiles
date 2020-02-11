@@ -13,6 +13,7 @@ alias ft="cd ~"
 # List
 alias la="ls -la"
 alias lt="ls -ltphk"
+alias large="ls -alhS | head -n 20"
 
 # Copy PWD to Clipboard
 alias cpwd="pwd | tr -d '\n' | pbcopy && echo 'pwd copied to clipboard'"
