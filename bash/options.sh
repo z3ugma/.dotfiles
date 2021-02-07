@@ -6,3 +6,9 @@ shopt -s histappend;
 
 # Autocorrect typos in path names when using `cd`
 shopt -s cdspell;
+
+#History file details
+export HISTTIMEFORMAT="%h %d %H:%M:%S "
+export HISTSIZE=10000
+export HISTCONTROL=ignorespace:erasedups
+export HISTIGNORE="ls:history"

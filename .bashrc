@@ -1,5 +1,6 @@
 # Load bash files
 . ~/.dotfiles/bash/functions.sh
+. ~/.dotfiles/bash/path.sh
 . ~/.dotfiles/bash/env.sh
 . ~/.dotfiles/bash/config.sh
 . ~/.dotfiles/bash/aliases.sh

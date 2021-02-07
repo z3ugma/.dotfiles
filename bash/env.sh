@@ -1,9 +1,3 @@
-# Add bin to PATH
-export PATH="/usr/local/bin:$PATH"
-
-# Load Yarn
-export PATH="$HOME/.yarn/bin:$PATH"
-
 # Turn command line colors on
 export CLICOLOR=1
 

@@ -540,6 +540,8 @@ hash tmutil &> /dev/null && sudo tmutil disablelocal
 # Activity Monitor                                                            #
 ###############################################################################
 
+echo "Got Here"
+
 # Show the main window when launching Activity Monitor
 defaults write com.apple.ActivityMonitor OpenMainWindow -bool true
 
