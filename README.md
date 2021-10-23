@@ -8,14 +8,14 @@ Peruse, you may find something useful.
 Clone this repository to your new machine and symlink the correct files, like so:
 
 ```bash
-ln -s ~/.dotfiles/.bash_profile ~/.bash_profile
-ln -s ~/.dotfiles/.bashrc ~/.bashrc
+ln -s ~/.dotfiles/.zprofile ~/.zprofile
+ln -s ~/.dotfiles/.zshrc ~/.zshrc
 ```
 
 Then be sure to source your new profile:
 
 ```bash
-source ~/.bash_profile
+source ~/.zprofile
 ```
 
 To set MacOS defaults:

@@ -1,11 +1,11 @@
 eval "$(pyenv init -)"
 eval "$(rbenv init -)"
 
-. ~/.dotfiles/bash/functions.sh
-. ~/.dotfiles/bash/path.sh
-. ~/.dotfiles/bash/env.sh
-. ~/.dotfiles/bash/config.sh
-. ~/.dotfiles/bash/aliases.sh
-. ~/.dotfiles/bash/completions.sh
-. ~/.dotfiles/bash/prompt.sh
-. ~/.dotfiles/bash/options.sh
+. ~/.dotfiles/zsh/functions.sh
+. ~/.dotfiles/zsh/path.sh
+. ~/.dotfiles/zsh/env.sh
+. ~/.dotfiles/zsh/config.sh
+. ~/.dotfiles/zsh/aliases.sh
+. ~/.dotfiles/zsh/completions.sh
+. ~/.dotfiles/zsh/prompt.sh
+. ~/.dotfiles/zsh/options.sh
