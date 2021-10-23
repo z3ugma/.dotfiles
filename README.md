@@ -10,6 +10,8 @@ Clone this repository to your new machine and symlink the correct files, like so
 ```bash
 ln -s ~/.dotfiles/.zprofile ~/.zprofile
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
+ln -s ~/.dotfiles/brew/Brewfile_fredsodata ~/Brewfile
+# or replace with the Brewfile of your preference
 ```
 
 Then be sure to source your new profile:

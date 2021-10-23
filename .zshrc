@@ -6,6 +6,5 @@ eval "$(rbenv init -)"
 . ~/.dotfiles/zsh/env.sh
 . ~/.dotfiles/zsh/config.sh
 . ~/.dotfiles/zsh/aliases.sh
-. ~/.dotfiles/zsh/completions.sh
 . ~/.dotfiles/zsh/prompt.sh
 . ~/.dotfiles/zsh/options.sh
