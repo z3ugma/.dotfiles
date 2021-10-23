@@ -11,6 +11,7 @@ Clone this repository to your new machine and symlink the correct files, like so
 ln -s ~/.dotfiles/.zprofile ~/.zprofile
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
 ln -s ~/.dotfiles/brew/Brewfile_fredsodata ~/Brewfile
+ln -s ~/.dotfiles/brew/Brewfile_lumiere ~/Brewfile
 # or replace with the Brewfile of your preference
 ```
 
