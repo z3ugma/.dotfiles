@@ -12,6 +12,9 @@ ln -s ~/.dotfiles/.zprofile ~/.zprofile
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
 ln -s ~/.dotfiles/brew/Brewfile_fredsodata ~/Brewfile
 ln -s ~/.dotfiles/brew/Brewfile_lumiere ~/Brewfile
+#mv /Users/fred/.config/kitty/kitty.conf ~/.dotfiles/    
+ln -s ~/.dotfiles/kitty.conf  ~/.config/kitty/kitty.conf 
+cd .dotfiles 
 # or replace with the Brewfile of your preference
 ```
 
