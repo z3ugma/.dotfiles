@@ -13,3 +13,6 @@ else
   c_git_clean=
   c_git_dirty=
 fi
+
+bindkey "\e\e[D" backward-word
+bindkey "\e\e[C" forward-word

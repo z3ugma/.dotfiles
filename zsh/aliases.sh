@@ -73,3 +73,4 @@ alias jnb='jupyter notebook'
 alias warm='stress -c 6 -m 2 -t 300'
 
 alias bu="brew update && brew upgrade && brew cleanup"
+alias sshk="kitty +kitten ssh"
