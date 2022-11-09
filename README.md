@@ -8,6 +8,16 @@ Peruse, you may find something useful.
 Clone this repository to your new machine and symlink the correct files, like so:
 
 ```bash
+
+chmod 700 ~/.ssh
+chmod 600 ~/.ssh/id_rsa
+chmod 644 `/.ssh/id-rsa.pub
+
+cd ~
+git clone git@github.com:z3ugma/.dotfiles.git
+```
+
+```bash
 ln -s ~/.dotfiles/.zprofile ~/.zprofile
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
 ln -s ~/.dotfiles/brew/Brewfile_fredsodata ~/Brewfile
