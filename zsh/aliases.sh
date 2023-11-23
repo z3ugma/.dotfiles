@@ -46,6 +46,7 @@ alias spoton="sudo mdutil -a -i on"
 # Lock the screen (when going AFK)
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
 
+
 #Rails
 alias be='bundle exec'
 alias r='rails'

@@ -8,3 +8,7 @@ eval "$(rbenv init -)"
 . ~/.dotfiles/zsh/aliases.sh
 . ~/.dotfiles/zsh/prompt.sh
 . ~/.dotfiles/zsh/options.sh
+
+# Hishtory Config:
+export PATH="$PATH:/Users/fred/.hishtory"
+source /Users/fred/.hishtory/config.zsh
