@@ -68,10 +68,9 @@ alias ippub="curl -s http://whatismyip.akamai.com -w '\n'"
 alias f='open -a Finder ./'  # Opens current directory in MacOS Finder
 
 #Python
-alias vnv='source venv/bin/activate && tput setab 4; tput setaf 7; echo "$(python --version)$(which python)"; tput sgr0'
+alias vnv='source .venv/bin/activate && tput setab 4; tput setaf 7; echo "$(python --version)$(which python)"; tput sgr0'
 alias jnb='jupyter notebook'
 
 alias warm='stress -c 6 -m 2 -t 300'
 
 alias bu="brew update && brew upgrade && brew cleanup"
-alias sshk="kitty +kitten ssh"

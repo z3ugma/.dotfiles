@@ -10,7 +10,6 @@ brew "docker"
 brew "docker-compose"
 brew "git"
 brew "mas"
-brew "pyenv"
 brew "rbenv"
 brew "rsync"
 brew "stress"
@@ -42,7 +41,7 @@ cask "studio-3t"
 cask "teamviewer"
 cask "the-unarchiver"
 cask "tunnelblick"
-cask "vagrant"
+#cask "vagrant"
 cask "visual-studio-code"
 cask "vlc"
 cask "webex"
@@ -51,3 +50,5 @@ mas "Hand Mirror", id: 1502839586
 mas "Magnet", id: 441258766
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "Microsoft Word", id: 462054704
+mas "Microsoft Excel", id: 462058435
+mas "Microsoft PowerPoint", id: 462062816

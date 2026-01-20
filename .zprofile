@@ -2,5 +2,3 @@
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 #Set PATH for PyEnv
-eval "$(pyenv init --path)"
-
