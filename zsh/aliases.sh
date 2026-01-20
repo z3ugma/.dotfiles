@@ -8,6 +8,7 @@ alias ......="cd ../../../../.."
 # Directory Aliases
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
+alias dc="cd ~/Documents"
 alias ft="cd ~"
 
 # List
@@ -22,7 +23,7 @@ alias cpwd="pwd | tr -d '\n' | pbcopy && echo 'pwd copied to clipboard'"
 # alias pl="git copl $(get_git_branch)"
 
 # Recursively delete `.DS_Store` files
-alias cleanupDS="find . -type f -name '*.DS_Store' -ls -delete"
+alias cleands="find . -type f -name '*.DS_Store' -ls -delete"
 
 # Empty the Trash on all mounted volumes and the main HDD.
 # Also, clear Apple’s System Logs to improve shell startup speed.
@@ -46,12 +47,6 @@ alias spoton="sudo mdutil -a -i on"
 # Lock the screen (when going AFK)
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
 
-
-#Rails
-alias be='bundle exec'
-alias r='rails'
-alias rc='rails console'
-alias rs='rails server'
 
 #Coding
 hack() {

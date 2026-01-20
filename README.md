@@ -1,6 +1,6 @@
 # .dotfiles
 
-This is a collection of my dotfiles. Borrowed from the great @kyleshevlin. 
+This is a collection of my dotfiles. Borrowed from the great @kyleshevlin.
 Peruse, you may find something useful.
 
 ## Usage
@@ -21,11 +21,8 @@ git clone git@github.com:z3ugma/.dotfiles.git
 ln -s ~/.dotfiles/.zprofile ~/.zprofile
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
 ln -s ~/.dotfiles/brew/Brewfile_fredsodata ~/Brewfile
-ln -s ~/.dotfiles/brew/Brewfile_lumiere ~/Brewfile
-#mv /Users/fred/.config/kitty/kitty.conf ~/.dotfiles/    
-mkdir -p ~/.config/kitty
-ln -s ~/.dotfiles/kitty.conf  ~/.config/kitty/kitty.conf 
-cd .dotfiles 
+#ln -s ~/.dotfiles/brew/Brewfile_lumiere ~/Brewfile
+cd .dotfiles
 # or replace with the Brewfile of your preference
 ```
 
@@ -36,6 +33,7 @@ source ~/.zprofile
 ```
 
 To set MacOS defaults:
+
 ```bash
 sudo bash ~/.dotfiles/osx/defaults.sh
 ```
